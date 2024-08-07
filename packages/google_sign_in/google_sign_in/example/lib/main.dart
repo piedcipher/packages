@@ -23,6 +23,7 @@ const List<String> scopes = <String>[
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
   // Optional clientId
+  // You can pass your client ID here instead of `meta` tag in web/index.html
   // clientId: 'your-client_id.apps.googleusercontent.com',
   scopes: scopes,
 );
